@@ -6,7 +6,7 @@ def controller():
     # Call External APi
     data = fetchDataFromAPI.fetchDatafromAPI()
 
-    print(data[1])
+    print(data)
 
     # Extract relevant reviews
     data = arrangeData.arrangeData(data)
